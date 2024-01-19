@@ -112,7 +112,7 @@
   color: rgb(255, 255, 255);
   height: 2.5rem;
   transition: background-color 0.25s ease-in-out, color 0.25s ease-in-out;
-  border-radius: 50%;
+  border-radius: 0.55rem;
   backdrop-filter: blur(5px);
 }
 

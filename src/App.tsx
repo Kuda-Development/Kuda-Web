@@ -1,6 +1,7 @@
 import { Suspense, useEffect } from "react";
 import { Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
+import Home from "./components/Home";
 
 function App() {
   const theme = (localStorage.getItem("theme") as "dark" | "light") || "dark";
@@ -14,7 +15,7 @@ function App() {
     <Suspense fallback={<div>Loading...</div>}>
       <Header />
       <Routes>
-        <Route path="/" element={null} />
+        <Route path="/" element={<Home />} />
       </Routes>
     </Suspense>
   );
