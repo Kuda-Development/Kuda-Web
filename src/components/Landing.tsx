@@ -5,6 +5,8 @@ import { Link } from "react-router-dom";
 function Landing() {
   return (
     <section className="app_landing">
+      <span className="bg_circle_1"></span>
+      <span className="bg_circle_2"></span>
       <div className="landing_content">
         <h1 className="landing_title">
           We generate <b>Code</b>, fast and <b>Secure</b> for you.
