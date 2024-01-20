@@ -39,6 +39,10 @@
   background-color: rgb(255, 255, 255, 0.255);
 }
 
+html[data-theme="light"] .app_header .content .content_hr {
+  background-color: rgb(15, 17, 26, 0.15);
+}
+
 .app_header .content .nav {
   display: flex;
   align-items: center;
@@ -67,6 +71,16 @@
   transition: color 0.2s ease-in-out;
 }
 
+html[data-theme="light"]
+  .app_header
+  .content
+  .nav
+  .nav_list
+  .nav_item
+  .nav_link {
+  color: rgb(15, 17, 26);
+}
+
 .app_header .content .nav .nav_list .nav_item .nav_link::after {
   content: "";
   position: absolute;
@@ -76,6 +90,16 @@
   bottom: -0.075rem;
   left: 0;
   transition: width 0.35s ease-in-out;
+}
+
+html[data-theme="light"]
+  .app_header
+  .content
+  .nav
+  .nav_list
+  .nav_item
+  .nav_link::after {
+  background-color: rgb(15, 17, 26);
 }
 
 .app_header .content .nav .nav_list .nav_item .nav_link:hover::after {
@@ -101,6 +125,11 @@
   cursor: pointer;
 }
 
+html[data-theme="light"] .app_header .content .content_link,
+html[data-theme="light"] .app_header .content .content_btn {
+  color: rgb(15, 17, 26);
+}
+
 .app_header .content .content_link.github,
 .app_header .content .content_btn.toggle_theme,
 .app_header .content .content_btn.toggle_menu {
@@ -114,6 +143,12 @@
   transition: background-color 0.25s ease-in-out, color 0.25s ease-in-out;
   border-radius: 0.55rem;
   backdrop-filter: blur(5px);
+}
+
+html[data-theme="light"] .app_header .content .content_link.github,
+html[data-theme="light"] .app_header .content .content_btn.toggle_theme,
+html[data-theme="light"] .app_header .content .content_btn.toggle_menu {
+  color: rgb(15, 17, 26);
 }
 
 .app_header .content .content_btn.toggle_menu {
@@ -137,6 +172,12 @@
 .app_header .content .content_btn.toggle_theme:hover,
 .app_header .content .content_btn.toggle_menu:hover {
   background-color: rgb(255, 255, 255, 0.1);
+}
+
+html[data-theme="light"] .app_header .content .content_link.github:hover,
+html[data-theme="light"] .app_header .content .content_btn.toggle_theme:hover,
+html[data-theme="light"] .app_header .content .content_btn.toggle_menu:hover {
+  background-color: rgba(0, 0, 0, 0.05);
 }
 
 @media screen and (max-width: 1000px) {

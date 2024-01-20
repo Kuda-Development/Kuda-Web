@@ -40,6 +40,11 @@
   top: -10%;
 }
 
+html[data-theme="light"] .app_landing .bg_circle_1,
+html[data-theme="light"] .app_landing .bg_circle_2 {
+  opacity: 0.2;
+}
+
 .app_landing .landing_content {
   display: flex;
   padding: 0 2.5rem;
@@ -60,6 +65,10 @@
   color: rgb(255, 255, 255);
   line-height: 4.05rem;
   transition: font-size 0.3s ease;
+}
+
+html[data-theme="light"] .app_landing .landing_content .landing_title {
+  color: rgb(15, 17, 26);
 }
 
 .app_landing .landing_content .landing_title b {
@@ -87,8 +96,20 @@
   transition: font-size 0.3s ease;
 }
 
+html[data-theme="light"] .app_landing .landing_content .landing_description {
+  color: rgb(15, 17, 26);
+}
+
 .app_landing .landing_content .landing_description span {
   color: rgb(154, 219, 255);
+}
+
+html[data-theme="light"]
+  .app_landing
+  .landing_content
+  .landing_description
+  span {
+  color: rgb(5, 129, 231);
 }
 
 .app_landing .landing_content .landing_btns {
@@ -127,14 +148,48 @@
   border: solid 0.15rem rgb(255, 255, 255, 0.45);
 }
 
+html[data-theme="light"]
+  .app_landing
+  .landing_content
+  .landing_btns
+  .landing_btn.discover {
+  background-color: rgb(0, 102, 255);
+  color: white;
+  border: none;
+}
+
+html[data-theme="light"]
+  .app_landing
+  .landing_content
+  .landing_btns
+  .landing_btn.discover:hover {
+  background-color: rgb(92, 155, 251);
+}
+
 .app_landing .landing_content .landing_btns .landing_btn.get_started {
   background-color: rgb(0, 102, 255);
   color: white;
   border: none;
 }
 
+html[data-theme="light"]
+  .app_landing
+  .landing_content
+  .landing_btns
+  .landing_btn.get_started {
+  background-color: rgb(31, 35, 56);
+}
+
 .app_landing .landing_content .landing_btns .landing_btn.get_started:hover {
   background-color: rgb(92, 155, 251);
+}
+
+html[data-theme="light"]
+  .app_landing
+  .landing_content
+  .landing_btns
+  .landing_btn.get_started:hover {
+  background-color: rgb(43, 49, 79);
 }
 
 @media screen and (max-width: 930px) {
