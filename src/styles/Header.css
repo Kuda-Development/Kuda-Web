@@ -21,6 +21,11 @@
   width: 4rem;
   object-fit: cover;
   cursor: pointer;
+  color: white;
+}
+
+html[data-theme="light"] .app_header .logo .img {
+  color: rgb(15, 17, 26);
 }
 
 .app_header .content {
@@ -108,7 +113,7 @@ html[data-theme="light"]
 
 .app_header .content .content_link,
 .app_header .content .content_btn {
-  background-color: transparent;
+  background: transparent;
   border: none;
   text-decoration: none;
   color: white;
@@ -140,7 +145,7 @@ html[data-theme="light"] .app_header .content .content_btn {
   width: 2.5rem;
   color: rgb(255, 255, 255);
   height: 2.5rem;
-  transition: background-color 0.25s ease-in-out, color 0.25s ease-in-out;
+  transition: background 0.25s ease-in-out, color 0.25s ease-in-out;
   border-radius: 0.55rem;
   backdrop-filter: blur(5px);
 }
@@ -171,13 +176,13 @@ html[data-theme="light"] .app_header .content .content_btn.toggle_menu {
 .app_header .content .content_link.github:hover,
 .app_header .content .content_btn.toggle_theme:hover,
 .app_header .content .content_btn.toggle_menu:hover {
-  background-color: rgb(255, 255, 255, 0.1);
+  background: rgb(255, 255, 255, 0.1);
 }
 
 html[data-theme="light"] .app_header .content .content_link.github:hover,
 html[data-theme="light"] .app_header .content .content_btn.toggle_theme:hover,
 html[data-theme="light"] .app_header .content .content_btn.toggle_menu:hover {
-  background-color: rgba(0, 0, 0, 0.05);
+  background: rgba(0, 0, 0, 0.05);
 }
 
 @media screen and (max-width: 1000px) {

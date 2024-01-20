@@ -26,8 +26,8 @@ html {
 html[data-theme="light"] {
   background-color: rgb(250, 250, 250);
   background-image: linear-gradient(
-      rgba(209, 209, 209, 0.05) 1px,
+      rgba(209, 209, 209, 0.15) 1px,
       transparent 1px
     ),
-    linear-gradient(to right, rgb(209, 209, 209, 0.05) 1px, transparent 1px);
+    linear-gradient(to right, rgb(209, 209, 209, 0.15) 1px, transparent 1px);
 }
