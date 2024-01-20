@@ -1,32 +1,27 @@
 import { memo } from "react";
-import { Link } from "react-router-dom";
 import "../styles/Landing.css";
+import { Link } from "react-router-dom";
 
 function Landing() {
   return (
     <section className="app_landing">
-      <div className="principal">
-        <h1 className="title">
-          Let's generate <b>Code</b> for you
+      <div className="landing_content">
+        <h1 className="landing_title">
+          We generate <b>Code</b>, fast and <b>Secure</b> for you.
         </h1>
-        <p className="description">
-          Kuda LLC stands out as a leading software development company,
-          occupying a prominent position in the industry.
+        <p className="landing_description">
+          Kuda Team stands out as a <span>leading software development</span>{" "}
+          company, occupying a prominent position in the industry.
         </p>
-        <div className="links">
-          <Link className="link" to="#">
-            Discover
+        <div className="landing_btns">
+          <Link to="/" className="landing_btn get_started">
+            Get Started
           </Link>
-          <Link
-            className="link discord"
-            target="_blank"
-            to="https://discord.gg/qDRcUqhU46"
-          >
-            Discord
+          <Link to="/" className="landing_btn discover">
+            Discover
           </Link>
         </div>
       </div>
-      <div className="terminal"></div>
     </section>
   );
 }

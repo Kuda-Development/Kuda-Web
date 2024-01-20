@@ -60,7 +60,7 @@
 
 .app_header .content .nav .nav_list .nav_item .nav_link {
   text-decoration: none;
-  color: white;
+  color: rgb(255, 255, 255);
   font-size: 1rem;
   font-weight: 500;
   position: relative;

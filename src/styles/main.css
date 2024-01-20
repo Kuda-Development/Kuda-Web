@@ -16,9 +16,9 @@ html {
 
 html {
   font-family: "Rubik", sans-serif;
-  /* background-image: linear-gradient(rgba(44, 44, 44, 0.2) 1px, transparent 1px),
-    linear-gradient(to right, rgb(44, 44, 44, 0.2) 1px, transparent 1px);
-  background-size: 50px 50px; */
+  background-image: linear-gradient(rgba(44, 44, 44, 0.1) 1px, transparent 1px),
+    linear-gradient(to right, rgb(44, 44, 44, 0.1) 1px, transparent 1px);
+  background-size: 50px 50px;
   background-color: #000;
   color: #ffffff;
 }
