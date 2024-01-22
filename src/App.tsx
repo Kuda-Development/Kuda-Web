@@ -4,7 +4,7 @@ import Header from "./components/Header";
 import Home from "./components/Home";
 
 function App() {
-  const theme = (localStorage.getItem("theme") as "dark" | "light") || "dark";
+  const theme = localStorage.getItem("theme") || "dark";
 
   useEffect(() => {
     const html = document.querySelector("html");
