@@ -12,7 +12,7 @@ function Landing() {
           We generate <b>Code</b>, fast and <b>Secure</b> for you.
         </h1>
         <p className="landing_description">
-          Kuda Team stands out as a <span>leading software development</span>{" "}
+          Kuda LLC stands out as a <span>leading software development</span>{" "}
           company, occupying a prominent position in the industry.
         </p>
         <div className="landing_btns">
